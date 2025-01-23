@@ -10,7 +10,7 @@ class Ship:
         self.screen_rect = ai_game.screen.get_rect()
 
         # Load the ship image and scale it
-        self.image = pygame.image.load('images/ship.bmp')
+        self.image = pygame.image.load('AlienGame/images/ship.bmp')
         self.image = pygame.transform.scale(self.image, (self.settings.ship_width, self.settings.ship_height))
         self.rect = self.image.get_rect()
 
